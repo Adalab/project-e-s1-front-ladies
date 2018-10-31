@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+/* ESTILOS GENERALES */
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #099d8d;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #54585a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* HEADER */
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.group-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #099d8dcc;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    height: 45px;
+    display: flex;
+    background-color: #14d9c4cc;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    list-style-type: none;
+}
+
+.menu__item {
+    font-weight: bold;
+    color: white;
+}
+
+.menu__link {
+    text-decoration-line: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+
+/* MAIN */
+
+.container-hero {
+    position: relative;
+}
+
+.hero {
+    background: url('../images/hero-image.jpg') center no-repeat;
+    background-size: cover;
+    height: 421px;
+    width: 100vw;
+}
+
+.claim {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: -40px;
+    background: white;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    z-index: 1;
+}
+
+.description {
+    padding: 55px 30px 0 30px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.team-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #099d8d;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.square {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:50%;
+    bottom: 0px;
+    transform: rotate(45deg) translateY(50%);
+}
+
+.skills {
+    background-color: hsl(0, 0%, 95%);
+    padding: 30px 30px 15px 30px;
+}
+
+.about-us-title {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #099d8d;
+    width: 100%;
+    text-align: center;
+}
+
+.section-about-us h3 {
+    color: black;
+    font-weight: lighter;
+}
+
+#about-us p {
+    margin-bottom: 15px;
+}
+
+.menu-social {
+    display: flex;
+    margin-bottom: 45px;
+    color: #099d8d;
+    list-style-type: none;
+}
+
+.about-us ul li span {
+    margin: 0 10px;
+    color: black;
+}
+
+
+/* CALLEJERO */
+
+.section-team {
+    position: relative;
+}
+  
+.section-team:first-child {
+    margin-top: 80px;
+}
+
+.section-about-us {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px 30px 0 30px;
+}
+  
+.section-about-us:first-child {
+    margin-top: 80px;
+}
+
+.callejero {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: -80px;
+}
+
+
+/* PHOTOS */
+
+.photo-Alex {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border: 5px solid #b8b8b9cc;
+    border-radius: 5px;
+    background-image: url('../images/alex.png');
+    margin-bottom: 15px;
+}
+
+.photo-Bea {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border: 5px solid #b8b8b9cc;
+    border-radius: 5px;
+    background-image: url('../images/beatriz.png');
+    margin-bottom: 15px;
+}
+
+.photo-Kath {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border: 5px solid #b8b8b9cc;
+    border-radius: 5px;
+    background-image: url('../images/kath.png');
+    margin-bottom: 15px;
+}
+
+.photo-Laura {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border: 5px solid #b8b8b9cc;
+    border-radius: 5px;
+    background-image: url('../images/thumb_IMG_1117_1024.jpg');
+    margin-bottom: 15px;
+}
+
+.photo-Samanta {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border: 5px solid #b8b8b9cc;
+    border-radius: 5px;
+    background-image: url('../images/samanta.png');
+    margin-bottom: 15px;
+}
+
+
+/* SOCIAL MENU */
+
+.menu-social {
+    margin: 0 0 45px 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item__social {
+    position: relative;
+}
+
+.item__social + .item__social::before {
+    content:'';
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+}
+
+.item__social + .item__social {
+    margin-left: 20px;
+}
+
+.social__link {
+    color: #099d8d;
+    text-transform: uppercase;
+}
+
+
+/* CONTACT PAGE */
+
+.hero-contact {
+    background: url('../images/hero-image.jpg') center no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100vw;
+}
+
+.contact-us {
+    background-color: white;
+}
+
+.contact-us h2 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #099d8d;
+    width: 100%;
+    text-align: center;
+}
+
+.description-contact-us {
+    padding: 30px 30px 0 30px;
+}
+
+.form {
+    padding: 0 15px;
+}
+
+.form p {
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+.form span {
+    color: #14d9c4;
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px #b8b8b9 solid;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+textarea#message {
+    height: 105px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px #b8b8b9 solid;
+}
+  
+label {
+    margin-bottom: 5px;
+    color: #54585a;
+}
+
+button {
+    background-color: #099d8d;
+    color: white;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+/* FOOTER */
+
+.footer {
+    border-top: #54585a 1px solid;
+    background-color: white;
+    padding: 30px 30px 45px 30px;  
+}
+
+.footer p {
+    color: #b8b8b9;
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 30px;
+    color: #54585a;
+}
+
+.footer__item {
+    color: #54585a;
+}
+
+.footer__link {
+    text-decoration-line: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.adalab-logo {
+    text-align: center;
+}
