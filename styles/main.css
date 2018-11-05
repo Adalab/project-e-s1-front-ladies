@@ -68,7 +68,7 @@ p {
     text-transform: uppercase;
 }
 
-/* mediaquery 768px */
+/* mediaquery header 768px */
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
     .header {
@@ -95,10 +95,7 @@ p {
     .menu__item {
         padding-left: 10px;
     }
-
 }
-
-
 
 /* MAIN */
 
@@ -124,6 +121,18 @@ p {
     font-weight: bold;
     padding: 15px;
     z-index: 1;
+}
+
+/* mediaquery hero-claim 768px */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .claim {
+        width: 441px;
+        padding: 15px 30px;
+        bottom: 0px;
+        opacity: 0.6;
+        margin-left: 15px;
+    }
 }
 
 .description {
