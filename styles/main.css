@@ -68,6 +68,33 @@ p {
     text-transform: uppercase;
 }
 
+/* mediaquery 768px */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .header {
+        height: 60px;
+        padding-left: 45px;
+        padding-right: 45px;
+        display: flex;
+        background-color: #099d8d;
+
+    }
+
+    .group-name {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        display: flex;
+        background-color: #099d8d;
+
+    }
+
+
+}
+
+
 
 /* MAIN */
 
