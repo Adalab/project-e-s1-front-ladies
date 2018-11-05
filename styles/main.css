@@ -126,6 +126,12 @@ p {
     padding: 30px 30px 15px 30px;
 }
 
+@media all and (min-width: 768px) {
+    .skills {
+        display: flex;
+    }
+}
+
 .about-us-title {
     margin-bottom: 30px;
     font-size: 22px;
