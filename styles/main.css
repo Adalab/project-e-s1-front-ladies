@@ -427,3 +427,38 @@ button {
 .adalab-logo {
     text-align: center;
 }
+
+/* mediaquery footer 768px */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .footer {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        height: 105px;
+    }
+
+    .footer p {
+        padding: 0px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 45px;
+    }
+
+    .footer-menu {
+        display: flex;
+        margin-top: 25px;
+        position: absolute;
+        right: 45px;
+    }
+
+    .adalab-logo {
+        display: flex;
+        height: 46px;
+        width: 115px;
+        position: absolute;
+        align-self: flex-end;
+        left: 45px;
+    }
+}
