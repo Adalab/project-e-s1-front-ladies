@@ -97,6 +97,36 @@ p {
     }
 }
 
+/* mediaquery header 1200px */
+
+@media all and (min-width: 1200px){
+    .header {
+        height: 60px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #099d8ecc;  
+    }
+
+    .group-name {
+        padding: 0px 138px;
+        background-color: #099d8dcc;
+    }
+
+    .menu {
+        display: flex;
+        background-color: #099d8dcc;
+        position: absolute;
+        right: 138px;
+        height: 60px;
+        padding: 0px;
+    }
+
+    .menu__item {
+        padding-left: 10px;
+    }
+}
+
 /* MAIN */
 
 .container-hero {
