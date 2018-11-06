@@ -440,8 +440,10 @@ button {
     }
 
     .footer p {
+        margin: 0px;
         padding-top: 30px;
-        margin-left: 45px;
+        padding-left: 45px;
+        padding-bottom: 15px;
     }
 
     .footer-menu {
@@ -452,13 +454,8 @@ button {
     }
 
     .adalab-logo {
-        display: flex;
         height: 46px;
-        padding-top: 15px;
-        padding-bottom: 60px;
         width: 115px;
-        position: absolute;
-        align-self: flex-end;
-        left: 45px;
+        padding-bottom: 60px;
     }
 }
