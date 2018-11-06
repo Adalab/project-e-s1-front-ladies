@@ -436,19 +436,17 @@ button {
         margin: 0px;
         display: flex;
         justify-content: space-between;
-        height: 105px;
+        min-height: 105px;
     }
 
     .footer p {
-        padding: 0px;
-        margin-top: 30px;
-        margin-bottom: 15px;
+        padding-top: 30px;
         margin-left: 45px;
     }
 
     .footer-menu {
         display: flex;
-        margin-top: 25px;
+        padding-top: 25px;
         position: absolute;
         right: 45px;
     }
@@ -456,6 +454,8 @@ button {
     .adalab-logo {
         display: flex;
         height: 46px;
+        padding-top: 15px;
+        padding-bottom: 60px;
         width: 115px;
         position: absolute;
         align-self: flex-end;
