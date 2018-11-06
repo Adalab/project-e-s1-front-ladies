@@ -4,57 +4,67 @@
 }
 
 body {
-    background-color: #f1f1f1;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    background-color: #f1f1f1;
 }
 
 
 /* ESTILOS GENERALES */
 
 h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #099d8d;
     width: 100%;
-    text-align: center;
     margin-bottom: 15px;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: #099d8d;
+    
+    text-align: center;
+
 }
 
 p {
-    color: #54585a;
-    text-align: center;
     margin-bottom: 30px;
+    
+    color: #54585a;
+
+    text-align: center;
 }
 
 
 /* HEADER */
 
 .header {
-    position: fixed;
     width: 100%;
+    
+    position: fixed;
     z-index: 2;
 }
 
 .group-name {
-    font-size: 18px;
+    height: 60px;
+    
     font-weight: bold;
+    font-size: 18px;
     color: white;
     background-color: #099d8dcc;
-    height: 60px;
+
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .menu {
     height: 45px;
-    display: flex;
+    padding: 0 20px;
+    
     background-color: #14d9c4cc;
+    list-style-type: none;
+
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 20px;
-    list-style-type: none;
 }
 
 .menu__item {
@@ -74,9 +84,11 @@ p {
     .header {
         height: 60px;
         margin: 0px;
+
+        background-color: #099d8d;
+
         display: flex;
         justify-content: space-between;
-        background-color: #099d8d;
     }
 
     .group-name {
@@ -84,12 +96,15 @@ p {
     }
 
     .menu {
-        display: flex;
-        background-color: #099d8d;
-        position: absolute;
-        right: 45px;
         height: 60px;
         padding: 0px;
+
+        background-color: #099d8d;
+
+        display: flex;
+
+        position: absolute;
+        right: 45px;
     }
 
     .menu__item {
@@ -97,29 +112,67 @@ p {
     }
 }
 
-/* MAIN */
+/* mediaquery header 1200px */
+
+@media all and (min-width: 1200px){
+    .header {
+        height: 60px;
+        margin: 0px;
+        
+        background-color: #099d8ecc;  
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .group-name {
+        padding: 0px 138px;
+    }
+
+    .menu {
+        height: 60px;
+        padding: 0px;
+
+        background-color: #099d8dcc;
+
+        display: flex;
+
+        position: absolute;
+        right: 138px;
+    }
+
+    .menu__item {
+        padding-left: 10px;
+    }
+}
+
+/* HERO & CLAIM */
 
 .container-hero {
     position: relative;
 }
 
 .hero {
-    background: url('../images/hero-image.jpg') center no-repeat;
-    background-size: cover;
     height: 421px;
     width: 100vw;
+
+    background: url('../images/hero-image.jpg') center no-repeat;
+    background-size: cover;
 }
 
 .claim {
+    padding: 15px;
+
+    font-weight: bold;
+    font-size: 18px;
+  
+    background: white;
+    color: black;
+
     position: absolute;
     left: 15px;
     right: 15px;
     bottom: -40px;
-    background: white;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;
-    padding: 15px;
     z-index: 1;
 }
 
@@ -128,18 +181,39 @@ p {
 @media all and (min-width: 768px) and (max-width: 1200px) {
     .claim {
         width: 441px;
+        margin-left: 15px;
         padding: 15px 30px;
         bottom: 0px;
         opacity: 0.6;
-        margin-left: 15px;
     }
 }
 
+/* mediaquery hero-claim 1200px */
+
+@media all and (min-width: 1200px) {
+    .hero {
+        height: 550px;
+        width: 100vw;
+        }    
+    
+    .claim {
+        width: 441px;
+        margin-left: 138px;
+        padding: 15px 30px;
+        bottom: 0px;
+        opacity: 0.6;
+    }
+}
+
+/* TEAM */
+
 .description {
     padding: 55px 30px 0 30px;
-    background-color: white;
-    position: relative;
     padding-bottom: 20px;
+
+    background-color: white;
+
+    position: relative;
 }
 
 .team-title {
@@ -166,6 +240,7 @@ p {
     padding: 30px 30px 15px 30px;
 }
 
+<<<<<<< HEAD
 .container-data {
     display: flex;
     flex-direction: column;
@@ -290,6 +365,9 @@ p {
 }
 
 
+=======
+/* ABOUT US */
+>>>>>>> a04d71edbc7c39ee98701ad3b16bf9c61b97298e
 
 .about-us-title {
     margin-bottom: 30px;
@@ -375,7 +453,6 @@ p {
     left: 0;
     top: -80px;
 }
-
 
 /* PHOTOS */
 
@@ -598,6 +675,7 @@ button {
 
     .footer-menu {
         display: flex;
+<<<<<<< HEAD
         padding-top: 25px;
         position: absolute;
         right: 45px;
@@ -607,5 +685,68 @@ button {
         height: 46px;
         width: 115px;
         padding-bottom: 60px;
+=======
+        padding-top: 30px;
+        padding-right: 45px;
+        align-items: unset;
+        text-align: right;
+        margin-bottom: unset;
+    }
+
+    .footer__item {
+        padding-bottom: 10px;
+    }
+
+    .adalab-logo {
+        height: 45px;
+        width: 115.9px;
+        /*padding-bottom: 60px;*/
+        position: absolute;
+        padding-top: 15px;
+        left: 45px;
+        top: 60px;
+>>>>>>> a04d71edbc7c39ee98701ad3b16bf9c61b97298e
+    }
+}
+
+/* mediaquery footer 1200px */
+
+@media all and (min-width: 1200px) {
+    .footer {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        min-height: 170px;
+        position: relative;
+    }
+
+    .footer p {
+        margin: 0px;
+        padding-top: 30px;
+        padding-left: 138px;
+    }
+
+    .footer-menu {
+        display: flex;
+        padding-top: 30px;
+        padding-right: 138px;
+        align-items: unset;
+        text-align: right;
+        margin-bottom: unset;
+    }
+
+    .footer__item {
+        padding-bottom: 10px;
+    }
+
+    .adalab-logo {
+        height: 45px;
+        width: 115.9px;
+        /*padding-bottom: 60px;*/
+        position: absolute;
+        padding-top: 15px;
+        left: 138px;
+        top: 60px;
     }
 }
