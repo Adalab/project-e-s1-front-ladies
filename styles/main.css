@@ -68,6 +68,34 @@ p {
     text-transform: uppercase;
 }
 
+/* mediaquery header 768px */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .header {
+        height: 60px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #099d8d;
+    }
+
+    .group-name {
+        padding: 0px 45px;
+    }
+
+    .menu {
+        display: flex;
+        background-color: #099d8d;
+        position: absolute;
+        right: 45px;
+        height: 60px;
+        padding: 0px;
+    }
+
+    .menu__item {
+        padding-left: 10px;
+    }
+}
 
 /* MAIN */
 
@@ -93,6 +121,18 @@ p {
     font-weight: bold;
     padding: 15px;
     z-index: 1;
+}
+
+/* mediaquery hero-claim 768px */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .claim {
+        width: 441px;
+        padding: 15px 30px;
+        bottom: 0px;
+        opacity: 0.6;
+        margin-left: 15px;
+    }
 }
 
 .description {
@@ -478,4 +518,39 @@ button {
 
 .adalab-logo {
     text-align: center;
+}
+
+/* mediaquery footer 768px */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .footer {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        min-height: 105px;
+    }
+
+    .footer p {
+        padding-top: 30px;
+        margin-left: 45px;
+    }
+
+    .footer-menu {
+        display: flex;
+        padding-top: 25px;
+        position: absolute;
+        right: 45px;
+    }
+
+    .adalab-logo {
+        display: flex;
+        height: 46px;
+        padding-top: 15px;
+        padding-bottom: 60px;
+        width: 115px;
+        position: absolute;
+        align-self: flex-end;
+        left: 45px;
+    }
 }
