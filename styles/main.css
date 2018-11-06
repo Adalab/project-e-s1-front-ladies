@@ -523,7 +523,7 @@ button {
 
     .footer-menu {
         display: flex;
-        padding-top: 25px;
+        padding-top: 30px;
         padding-right: 45px;
         align-items: unset;
         text-align: right;
@@ -535,12 +535,54 @@ button {
     }
 
     .adalab-logo {
-        height: 46px;
-        width: 115px;
+        height: 45px;
+        width: 115.9px;
         /*padding-bottom: 60px;*/
         position: absolute;
         padding-top: 15px;
         left: 45px;
+        top: 60px;
+    }
+}
+
+/* mediaquery footer 1200px */
+
+@media all and (min-width: 1200px) {
+    .footer {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        min-height: 170px;
+        position: relative;
+    }
+
+    .footer p {
+        margin: 0px;
+        padding-top: 30px;
+        padding-left: 138px;
+    }
+
+    .footer-menu {
+        display: flex;
+        padding-top: 30px;
+        padding-right: 138px;
+        align-items: unset;
+        text-align: right;
+        margin-bottom: unset;
+    }
+
+    .footer__item {
+        padding-bottom: 10px;
+    }
+
+    .adalab-logo {
+        height: 45px;
+        width: 115.9px;
+        /*padding-bottom: 60px;*/
+        position: absolute;
+        padding-top: 15px;
+        left: 138px;
         top: 60px;
     }
 }
