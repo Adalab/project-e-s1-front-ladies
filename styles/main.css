@@ -192,6 +192,8 @@ p {
     .container-aboutus {
         flex-direction: row !important;
         align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .container-data {
