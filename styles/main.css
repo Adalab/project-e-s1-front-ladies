@@ -178,6 +178,12 @@ p {
     padding-bottom: 15px;
 }
 
+.personal-description-bea {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
 
 @media all and (min-width: 768px) {
     .skills {
@@ -196,9 +202,25 @@ p {
         padding-bottom: 15px;
     }
 
+    .container-aboutus-bea {
+        flex-direction: row-reverse !important;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
     .container-data {
         width: 60%;
         align-items: flex-start;
+        margin-left: 30px;
+        height: 205px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-data-bea {
+        width: 60%;
+        align-items: flex-end;
         margin-left: 30px;
         height: 205px;
         margin: 0;
@@ -212,8 +234,18 @@ p {
         padding: 0;
     }
 
+    .personal-name-bea {
+        text-align: right;
+        margin: 0;
+        padding: 0;
+    }
+
     .personal-description {
         text-align: left;
+    }
+
+    .personal-description-bea {
+        text-align: right;
     }
 
     .photo-Alex {
@@ -224,28 +256,37 @@ p {
     }
 
     .photo-Bea {
-        width: 205px;
-        height: 205px;
+        width: 205px !important;
+        height: 205px !important;
+        box-sizing: border-box;
     }
 
     .photo-Kath {
-        width: 205px;
-        height: 205px;
+        width: 205px !important;
+        height: 205px !important;
+        box-sizing: border-box;
     }
 
     .photo-Laura {
-        width: 205px;
-        height: 205px;
+        width: 205px !important;
+        height: 205px !important;
+        box-sizing: border-box;
     }
 
     .photo-Samanta {
-        width: 205px;
-        height: 205px;
+        width: 205px !important;
+        height: 205px !important;
+        box-sizing: border-box;
     }
 
     .menu-social {
-        align-items: flex-start !important;
+        justify-content: flex-start !important;
     }
+
+    .menu-social-bea {
+        justify-content: flex-end !important;
+    }
+    
 }
 
 
@@ -277,6 +318,15 @@ p {
     margin-bottom: 45px;
     color: #099d8d;
     list-style-type: none;
+    justify-content: center;
+}
+
+.menu-social-bea {
+    display: flex;
+    margin-bottom: 45px;
+    color: #099d8d;
+    list-style-type: none;
+    justify-content: center;
 }
 
 .about-us ul li span {
@@ -290,6 +340,11 @@ p {
     
 }
 
+.container-aboutus-bea {
+    display: flex;
+    flex-direction: column;
+    
+}
 /* CALLEJERO */
 
 .section-team {
@@ -343,6 +398,8 @@ p {
     border-radius: 5px;
     background-image: url('../images/beatriz.png');
     margin-bottom: 15px;
+    margin-bottom: 15px;
+    margin: auto;
 }
 
 .photo-Kath {
@@ -353,6 +410,8 @@ p {
     border-radius: 5px;
     background-image: url('../images/kath.png');
     margin-bottom: 15px;
+    margin: auto;
+
 }
 
 .photo-Laura {
@@ -363,6 +422,8 @@ p {
     border-radius: 5px;
     background-image: url('../images/thumb_IMG_1117_1024.jpg');
     margin-bottom: 15px;
+    margin: auto;
+
 }
 
 .photo-Samanta {
@@ -373,17 +434,12 @@ p {
     border-radius: 5px;
     background-image: url('../images/samanta.png');
     margin-bottom: 15px;
+    margin: auto;
+
 }
 
 
 /* SOCIAL MENU */
-
-.menu-social {
-    margin: 0 0 45px 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
 
 .item__social {
     position: relative;
