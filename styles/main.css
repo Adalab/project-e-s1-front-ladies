@@ -363,10 +363,7 @@ p {
     
 }
 
-
-=======
 /* ABOUT US */
->>>>>>> a04d71edbc7c39ee98701ad3b16bf9c61b97298e
 
 .about-us-title {
     margin-bottom: 30px;
@@ -674,17 +671,6 @@ button {
 
     .footer-menu {
         display: flex;
-<<<<<<< HEAD
-        padding-top: 25px;
-        position: absolute;
-        right: 45px;
-    }
-
-    .adalab-logo {
-        height: 46px;
-        width: 115px;
-        padding-bottom: 60px;
-=======
         padding-top: 30px;
         padding-right: 45px;
         align-items: unset;
@@ -704,7 +690,6 @@ button {
         padding-top: 15px;
         left: 45px;
         top: 60px;
->>>>>>> a04d71edbc7c39ee98701ad3b16bf9c61b97298e
     }
 }
 
