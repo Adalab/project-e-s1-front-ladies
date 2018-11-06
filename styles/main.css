@@ -166,90 +166,6 @@ p {
     padding: 30px 30px 15px 30px;
 }
 
-.container-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.personal-description {
-    padding: 0;
-    margin: 0;
-    padding-bottom: 15px;
-}
-
-
-@media all and (min-width: 768px) {
-    .skills {
-        display: flex;
-    }
-
-    .article {
-        width: 50%;
-        padding: 15px;
-    }
-
-    .container-aboutus {
-        flex-direction: row !important;
-        align-items: center;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .container-data {
-        width: 60%;
-        align-items: flex-start;
-        margin-left: 30px;
-        height: 205px;
-        margin: 0;
-        padding: 0;
-    
-    }
-
-    .personal-name {
-        text-align: left;
-        margin: 0;
-        padding: 0;
-    }
-
-    .personal-description {
-        text-align: left;
-    }
-
-    .photo-Alex {
-        width: 205px !important;
-        height: 205px !important;
-        box-sizing: border-box;
-
-    }
-
-    .photo-Bea {
-        width: 205px;
-        height: 205px;
-    }
-
-    .photo-Kath {
-        width: 205px;
-        height: 205px;
-    }
-
-    .photo-Laura {
-        width: 205px;
-        height: 205px;
-    }
-
-    .photo-Samanta {
-        width: 205px;
-        height: 205px;
-    }
-
-    .menu-social {
-        align-items: flex-start !important;
-    }
-}
-
-
-
 .about-us-title {
     margin-bottom: 30px;
     font-size: 22px;
@@ -259,10 +175,6 @@ p {
     text-align: center;
 }
 
-.personal-name {
-    padding-top: 15px;
-
-}
 .section-about-us h3 {
     color: black;
     font-weight: lighter;
@@ -284,11 +196,6 @@ p {
     color: black;
 }
 
-.container-aboutus {
-    display: flex;
-    flex-direction: column;
-    
-}
 
 /* CALLEJERO */
 
@@ -332,7 +239,6 @@ p {
     border-radius: 5px;
     background-image: url('../images/alex.png');
     margin-bottom: 15px;
-    margin: auto;
 }
 
 .photo-Bea {
@@ -530,26 +436,31 @@ button {
         margin: 0px;
         display: flex;
         justify-content: space-between;
-        min-height: 105px;
+        min-height: 170px;
+        position: relative;
     }
 
     .footer p {
         margin: 0px;
         padding-top: 30px;
         padding-left: 45px;
-        padding-bottom: 15px;
     }
 
     .footer-menu {
         display: flex;
         padding-top: 25px;
-        position: absolute;
-        right: 45px;
+        padding-right: 45px;
+        align-items: unset;
+        text-align: right;
     }
 
     .adalab-logo {
         height: 46px;
         width: 115px;
-        padding-bottom: 60px;
+        /*padding-bottom: 60px;*/
+        position: absolute;
+        padding-top: 15px;
+        left: 45px;
+        top: 60px;
     }
 }
