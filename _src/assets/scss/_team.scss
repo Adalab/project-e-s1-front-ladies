@@ -1,0 +1,33 @@
+.description {
+    padding: 55px 30px 0 30px;
+    padding-bottom: 20px;
+
+    background-color: white;
+
+    position: relative;
+}
+
+.team-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #099d8d;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.square {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:50%;
+    bottom: 0px;
+    transform: rotate(45deg) translateY(50%);
+}
+
+.skills {
+    background-color: hsl(0, 0%, 95%);
+    padding: 30px 30px 15px 30px;
+}
+
