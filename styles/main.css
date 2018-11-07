@@ -660,6 +660,7 @@ button {
         display: flex;
         justify-content: space-between;
         min-height: 105px;
+        position: relative;
     }
 
     .footer p {
