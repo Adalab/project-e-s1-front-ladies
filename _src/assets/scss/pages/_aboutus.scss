@@ -1,5 +1,10 @@
-
 .container-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-data-bea {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,14 +12,12 @@
 
 .personal-description {
     padding: 0;
-    margin: 0;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-.personal-description {
+.personal-description-bea {
     padding: 0;
-    margin: 0;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -30,47 +33,32 @@
 
     .container-aboutus {
         flex-direction: row !important;
-        align-items: center;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        align-items: flex-start;
     }
 
     .container-aboutus-bea {
         flex-direction: row-reverse !important;
-        align-items: center;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        align-items: flex-start;
     }
 
     .container-data {
-        width: 60%;
+        width: 70%;
         align-items: flex-start;
         margin-left: 30px;
-        height: 205px;
-        margin: 0;
-        padding: 0;
     }
 
     .container-data-bea {
-        width: 60%;
+        width: 70%;
         align-items: flex-end;
-        margin-left: 30px;
-        height: 205px;
-        margin: 0;
-        padding: 0;
-    
+        margin-right: 30px;
     }
 
     .personal-name {
         text-align: left;
-        margin: 0;
-        padding: 0;
     }
 
     .personal-name-bea {
         text-align: right;
-        margin: 0;
-        padding: 0;
     }
 
     .personal-description {
@@ -84,32 +72,31 @@
     .photo-Alex {
         width: 205px !important;
         height: 205px !important;
-        box-sizing: border-box;
-
+        margin: 0;
     }
 
     .photo-Bea {
         width: 205px !important;
         height: 205px !important;
-        box-sizing: border-box;
+        margin: 0;
     }
 
     .photo-Kath {
         width: 205px !important;
         height: 205px !important;
-        box-sizing: border-box;
+        margin: 0;
     }
 
     .photo-Laura {
         width: 205px !important;
         height: 205px !important;
-        box-sizing: border-box;
+        margin: 0;
     }
 
     .photo-Samanta {
         width: 205px !important;
         height: 205px !important;
-        box-sizing: border-box;
+        margin: 0;
     }
 
     .menu-social {
@@ -118,6 +105,10 @@
 
     .menu-social-bea {
         justify-content: flex-end !important;
+    }
+
+    .menu-social-samanta {
+        justify-content: flex-start !important;
     }
     
 }
@@ -135,8 +126,12 @@
 
 .personal-name {
     padding-top: 15px;
-
 }
+
+.personal-name-bea {
+    padding-top: 15px;
+}
+
 .section-about-us h3 {
     color: black;
     font-weight: lighter;
@@ -157,6 +152,14 @@
 .menu-social-bea {
     display: flex;
     margin-bottom: 45px;
+    color: #099d8d;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu-social-samanta {
+    display: flex;
+    margin-bottom: 60px;
     color: #099d8d;
     list-style-type: none;
     justify-content: center;
@@ -218,7 +221,6 @@
     border: 5px solid #b8b8b9cc;
     border-radius: 5px;
     background-image: url('../images/alex.png');
-    margin-bottom: 15px;
     margin: auto;
 }
 
@@ -229,8 +231,6 @@
     border: 5px solid #b8b8b9cc;
     border-radius: 5px;
     background-image: url('../images/beatriz.png');
-    margin-bottom: 15px;
-    margin-bottom: 15px;
     margin: auto;
 }
 
@@ -241,9 +241,7 @@
     border: 5px solid #b8b8b9cc;
     border-radius: 5px;
     background-image: url('../images/kath.png');
-    margin-bottom: 15px;
     margin: auto;
-
 }
 
 .photo-Laura {
@@ -253,9 +251,7 @@
     border: 5px solid #b8b8b9cc;
     border-radius: 5px;
     background-image: url('../images/thumb_IMG_1117_1024.jpg');
-    margin-bottom: 15px;
     margin: auto;
-
 }
 
 .photo-Samanta {
@@ -265,9 +261,7 @@
     border: 5px solid #b8b8b9cc;
     border-radius: 5px;
     background-image: url('../images/samanta.png');
-    margin-bottom: 15px;
     margin: auto;
-
 }
 
 
