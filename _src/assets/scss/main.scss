@@ -1,6 +1,7 @@
+@import 'layout/_header.scss';
 @import 'pages/_aboutus.scss';
 @import 'pages/_team.scss';
-
+@import 'layout/_footer.scss';
 
 * {
     margin: 0;
@@ -39,7 +40,6 @@ p {
 
 /* HEADER */
 
-@import "layout/_header.scss";
 
 /* HERO & CLAIM */
 
@@ -180,121 +180,3 @@ button {
 
 /* FOOTER */
 
-.footer {
-    border-top: #54585a 1px solid;
-    background-color: white;
-    padding: 30px 30px 45px 30px;  
-}
-
-.footer p {
-    color: #b8b8b9;
-    margin-bottom: 20px;
-}
-
-.footer-menu {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    list-style-type: none;
-    margin-bottom: 30px;
-    color: #54585a;
-}
-
-.footer__item {
-    color: #54585a;
-}
-
-.footer__link {
-    text-decoration-line: none;
-    color: inherit;
-    text-transform: uppercase;
-}
-
-.adalab-logo {
-    text-align: center;
-}
-
-/* mediaquery footer 768px */
-
-@media all and (min-width: 768px) and (max-width: 1200px) {
-    .footer {
-        padding: 0px;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        min-height: 105px;
-        position: relative;
-    }
-
-    .footer p {
-        margin: 0px;
-        padding-top: 30px;
-        padding-left: 45px;
-        padding-bottom: 15px;
-    }
-
-    .footer-menu {
-        display: flex;
-        padding-top: 30px;
-        padding-right: 45px;
-        align-items: unset;
-        text-align: right;
-        margin-bottom: unset;
-    }
-
-    .footer__item {
-        padding-bottom: 10px;
-    }
-
-    .adalab-logo {
-        height: 45px;
-        width: 115.9px;
-        /*padding-bottom: 60px;*/
-        position: absolute;
-        padding-top: 15px;
-        left: 45px;
-        top: 60px;
-    }
-}
-
-/* mediaquery footer 1200px */
-
-@media all and (min-width: 1200px) {
-    .footer {
-        padding: 0px;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        min-height: 170px;
-        position: relative;
-    }
-
-    .footer p {
-        margin: 0px;
-        padding-top: 30px;
-        padding-left: 138px;
-    }
-
-    .footer-menu {
-        display: flex;
-        padding-top: 30px;
-        padding-right: 138px;
-        align-items: unset;
-        text-align: right;
-        margin-bottom: unset;
-    }
-
-    .footer__item {
-        padding-bottom: 10px;
-    }
-
-    .adalab-logo {
-        height: 45px;
-        width: 115.9px;
-        /*padding-bottom: 60px;*/
-        position: absolute;
-        padding-top: 15px;
-        left: 138px;
-        top: 60px;
-    }
-}
