@@ -6,3 +6,57 @@
 @import 'layout/_heroclaim.scss';
 @import 'pages/_contact-hero.scss';
 @import 'pages/_contact-form.scss';
+@import 'layout/_contact-footer.scss';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #f1f1f1;
+}
+
+
+/* ESTILOS GENERALES */
+
+h3 {
+    width: 100%;
+    margin-bottom: 15px;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: #099d8d; 
+    text-align: center;
+
+}
+
+p {
+    margin-bottom: 30px;
+    
+    color: #54585a;
+
+    text-align: center;
+}
+
+
+/* HEADER */
+
+
+/* HERO & CLAIM */
+
+
+/* TEAM */
+
+
+/* CONTACT PAGE */
+
+
+
+/* FOOTER */
+
