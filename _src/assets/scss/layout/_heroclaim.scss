@@ -1,0 +1,52 @@
+.container-hero {
+    position: relative;
+}
+
+.hero {
+    height: 421px;
+    width: 100vw;
+    background: url('../images/hero-image.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.claim {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    background: white;
+    color: black;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: -40px;
+    z-index: 1;
+}
+
+/* mediaquery hero-claim 768px */
+
+@media all and (min-width: 768px) {
+    .claim {
+        width: 441px;
+        margin-left: 15px;
+        padding: 15px 30px;
+        bottom: 0px;
+        opacity: 0.7;
+    }
+}
+
+/* mediaquery hero-claim 1200px */
+
+@media all and (min-width: 1200px) {
+    .hero {
+        height: 550px;
+        width: 100vw;
+    }    
+    
+    .claim {
+        width: 441px;
+        margin-left: 138px;
+        padding: 15px 30px;
+        bottom: 0px;
+        opacity: 0.7;
+    }
+}
