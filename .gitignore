@@ -7,7 +7,7 @@ bower_components
 .bower-tmp
 
 ### macOS ###
-*.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 
