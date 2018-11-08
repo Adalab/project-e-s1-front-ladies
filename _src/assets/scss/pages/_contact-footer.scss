@@ -38,13 +38,13 @@
     .footer {
         padding: 0px;
         margin: 0px;
+        position: relative;
     }
 
     .container-footer {
         padding: 30px 45px 60px 45px;
         display: flex;
         justify-content: space-between;
-        position: relative;
     }
 
     .footer p {
@@ -77,13 +77,14 @@
     .footer {
         margin: 0px;
         padding: 0px;
+        position: relative;
+
     }
 
     .container-footer {
         padding: 30px 138px 60px 138px;
         display: flex;
         justify-content: space-between;
-        position: relative;
     }
 
     .footer p {
