@@ -1,8 +1,28 @@
 .contact-us {
+    margin: auto;
+
+}
+
+.contact-main {
     background-color: white;
 }
 
-.contact-us h2 {
+/* mediaquery contact 768px */
+
+@media all and (min-width: 768px) {
+    .contact-us {
+        max-width: 442px;
+    }
+}
+
+/* mediaquery contact 1200px */
+
+@media all and (min-width: 1200px) {
+    .contact-us {
+        max-width: 601px;
+    }
+}
+    .contact-us h2 {
     margin-bottom: 30px;
     font-size: 22px;
     font-weight: bold;
@@ -28,6 +48,10 @@
     color: #14d9c4;
 }
 
+.fieldset {
+    border: none;
+}
+
 input {
     width: 100%;
     margin-top: 5px;
@@ -35,7 +59,27 @@ input {
     border: 1px #b8b8b9 solid;
     height: 45px;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+/* mediaquery contact 1200px */
+
+@media all and (min-width: 1200px) {
+
+.container-mail-tel {
+    display: flex;
+}
+.mail {
+    width: 395px;
+    margin-right: 0px;
+
+}
+.tel {
+    width: 162px;
+    box-sizing: border-box;
+    margin-left: 44px;
+}
 }
 
 textarea#message {
@@ -44,6 +88,9 @@ textarea#message {
     margin-top: 5px;
     margin-bottom: 15px;
     border: 1px #b8b8b9 solid;
+    padding: 15px 15px;
+    font-size: 16px;
+    box-sizing: border-box;
 }
   
 label {
@@ -51,7 +98,7 @@ label {
     color: #54585a;
 }
 
-button {
+.button {
     background-color: #099d8d;
     color: white;
     width: 100%;
@@ -61,4 +108,28 @@ button {
     font-size: 22px;
     margin-top: 15px;
     margin-bottom: 60px;
+}
+
+/* mediaquery button 768px */
+
+@media all and (min-width: 768px) {
+    
+    .button-bar-contact {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .button {
+        max-width: 206px;
+    }
+}
+
+/* mediaquery button 1200px */
+
+@media all and (min-width: 1200px) {
+
+    .button {
+        margin-top: 30px !important;
+        margin-bottom: 120px !important;
+    }
 }

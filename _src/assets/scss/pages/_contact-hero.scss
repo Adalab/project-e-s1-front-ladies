@@ -7,3 +7,11 @@
     height: 300px;
     width: 100vw;
 }
+
+/* mediaquery hero-contact 1200px */
+
+@media all and (min-width: 1200px) {
+    .hero-contact {
+        height: 400px;
+    }
+}

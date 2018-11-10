@@ -4,24 +4,32 @@
         <p>Do you want to know something more about us? We will glad to answer you.</p>
     </div>
 
-    <div class="form">
+    <form class="form">
         <p>All the fields marked with <span>*</span> are required</p>
-        <div>
-            <label for="name">Name <span>*</span></label>
-            <input id="name" type="name">
-        </div>
-        <div>
-            <label for="email">Email <span>*</span></label>
-            <input id="email" type="email">
-        </div>
-        <div>
-            <label for="tel">Phone</label>
-            <input id="tel" type="tel">
-        </div>
-        <div>
-            <label for="text">Message <span>*</span></label>
-            <textarea id="message"></textarea>
-        </div>
-        <button>SEND</button>
+        <fieldset class="fieldset">
+            <div>
+                <label for="name">Name <span>*</span></label>
+                <input id="name" type="text" placeholder="Name..." required>
+            </div>
+
+            <div class="container-mail-tel">
+                <div class="mail">
+                    <label for="email">Email <span>*</span></label>
+                    <input id="email" type="email" placeholder="name.surname@mail.com" required>
+                </div>
+                <div class="tel">
+                    <label for="tel">Phone</label>
+                    <input id="tel" type="tel" placeholder="Ex. 123456789">
+                </div>
+            </div>
+            <div>
+                <label for="text">Message <span>*</span></label>
+                <textarea id="message" placeholder="What do you need?" required></textarea>
+            </div>
+
+            <div class="button-bar-contact">
+            <button class="button">SEND</button>
+            </div>
+        </fieldset>
     </form>
 </section>
