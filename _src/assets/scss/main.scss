@@ -1,11 +1,32 @@
-@import 'pages/_home.scss';
+//Core
+@import 'core/_variables.scss';
+
+//Layout
 @import 'layout/_header.scss';
-@import 'pages/_aboutus.scss';
-@import 'pages/_team.scss';
 @import 'layout/_footer.scss';
-@import 'layout/_heroclaim.scss';
+@import 'layout/_grid.scss';
+
+//Components
+@import 'components/_heroclaim.scss';
+@import 'components/_typography.scss';
+
+//Pages
+@import 'pages/_home.scss';
+@import 'pages/_team.scss';
+@import 'pages/_aboutus.scss';
+@import 'pages/_contact-header.scss';
 @import 'pages/_contact-hero.scss';
 @import 'pages/_contact-form.scss';
 @import 'pages/_contact-footer.scss';
+
+
+
+
+
+
+
+
+
+
 
 
