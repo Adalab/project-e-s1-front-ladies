@@ -1,9 +1,7 @@
 .description {
     padding: 55px 30px 0 30px;
     padding-bottom: 20px;
-
     background-color: white;
-
     position: relative;
 }
 
@@ -29,5 +27,20 @@
 .skills {
     background-color: hsl(0, 0%, 95%);
     padding: 30px 30px 15px 30px;
+}
+
+@media (min-width: 768px) {
+    .description {
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .team-description {
+        max-width: 601px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
 }
 
