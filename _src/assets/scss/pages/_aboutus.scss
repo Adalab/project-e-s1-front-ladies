@@ -123,6 +123,8 @@
 
 /* PHOTOS */
 
+@media all and (min-width: 320px) {
+
 .photo-Alex {
     width: 180px;
     height: 180px;
@@ -171,6 +173,7 @@
     border-radius: 5px;
     background-image: url('../images/samanta.png');
     margin: auto;
+}
 }
 
 
@@ -257,32 +260,32 @@
     }
 
     .photo-Alex {
-        width: 205px !important;
-        height: 205px !important;
+        width: 205px;
+        height: 205px;
         margin: 0;
     }
 
     .photo-Bea {
-        width: 205px !important;
-        height: 205px !important;
+        width: 205px;
+        height: 205px;
         margin: 0;
     }
 
     .photo-Kath {
-        width: 205px !important;
-        height: 205px !important;
+        width: 205px;
+        height: 205px;
         margin: 0;
     }
 
     .photo-Laura {
-        width: 205px !important;
-        height: 205px !important;
+        width: 205px;
+        height: 205px;
         margin: 0;
     }
 
     .photo-Samanta {
-        width: 205px !important;
-        height: 205px !important;
+        width: 205px;
+        height: 205px;
         margin: 0;
     }
 
@@ -305,32 +308,32 @@
 @media all and (min-width: 1200px) {
 
     .photo-Alex {
-        width: 278px !important;
-        height: 278px !important;
+        width: 278px;
+        height: 278px;
         margin: 0;
     }
 
     .photo-Bea {
-        width: 278px !important;
-        height: 278px !important;
+        width: 278px;
+        height: 278px;
         margin: 0;
     }
 
     .photo-Kath {
-        width: 278px !important;
-        height: 278px !important;
+        width: 278px;
+        height: 278px;
         margin: 0;
     }
 
     .photo-Laura {
-        width: 278px !important;
-        height: 278px !important;
+        width: 278px;
+        height: 278px;
         margin: 0;
     }
 
     .photo-Samanta {
-        width: 278px !important;
-        height: 278px !important;
+        width: 278px;
+        height: 278px;
         margin: 0;
     }
 
