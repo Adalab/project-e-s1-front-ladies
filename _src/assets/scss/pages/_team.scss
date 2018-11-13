@@ -1,21 +1,21 @@
 .description {
     padding: 55px 30px 0 30px;
     padding-bottom: 20px;
-    background-color: white;
+    background-color: $BGC-W;
     position: relative;
 }
 
 .team-title {
     font-size: 22px;
     font-weight: bold;
-    color: #099d8d;
+    color: $BGC-A;
     width: 100%;
     text-align: center;
     margin-bottom: 15px;
 }
 
 .square {
-    background-color: white;
+    background-color: $BGC-W;
     width: 30px;
     height: 30px;
     position: absolute;

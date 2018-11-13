@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: 18px;
     color: white;
-    background-color: #099d8d;
+    background-color: $BGC-A;
     opacity: 0.9;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
     .header {
         height: 60px;
         margin: 0px;
-        background-color: #099d8d;
+        background-color: $BGC-A;
         opacity: 0.9;
         display: flex;
         justify-content: space-between;
@@ -57,7 +57,7 @@
     .menu {
         height: 60px;
         padding: 0px;
-        background-color: #099d8d;
+        background-color: $BGC-A;
         display: flex;
         position: absolute;
         right: 45px;
@@ -74,7 +74,7 @@
     .header {
         height: 60px;
         margin: 0px;
-        background-color: #099d8e;  
+        background-color: $BGC-A;  
         display: flex;
         justify-content: space-between;
     }
@@ -86,7 +86,7 @@
     .menu {
         height: 60px;
         padding: 0px;
-        background-color: #099d8d;
+        background-color: $BGC-A;
         display: flex;
         position: absolute;
         right: 138px;
