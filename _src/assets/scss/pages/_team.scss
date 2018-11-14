@@ -42,8 +42,11 @@
     transform: rotate(45deg) translateY(50%);
 }
 
-.skills {
+.skills-bg {
     background-color: hsl(0, 0%, 95%);
+}
+
+.skills {
     padding: 30px 30px 15px 30px;
 }
 
@@ -62,6 +65,7 @@
     }
     .skills{
         max-width: 923px;
+        margin: 0 auto;
     }
 }
 
