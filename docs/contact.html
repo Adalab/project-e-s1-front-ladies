@@ -30,43 +30,49 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <div class="container-hero">
-                <div class="hero-contact" alt="imagen hero"></div>
+        <div class="container-hero">
+            <div class="hero-contact" alt="imagen hero"></div>
+        </div>
+        <main class="contact-main"></main>
+        <section class="contact-us">
+            <div class="description-contact-us">
+                 <h2>CONTACT US</h2>
+
+                <p>Do you want to know something more about us? We will glad to answer you.</p>
             </div>
-            <section class="contact-us">
-                <div class="description-contact-us">
-                     <h2>CONTACT US</h2> 
-                    <p>Do you want to know something more about us? We will glad to answer you.</p>
-                </div>
-                <div class="form">
-                    <p>All the fields marked with <span>*</span> are required</p>
+            <form class="form">
+                <p>All the fields marked with <span>*</span> are required</p>
+                <fieldset class="fieldset">
                     <div>
                         <label for="name">Name <span>*</span>
 
                         </label>
-                        <input id="name" type="name">
+                        <input id="name" type="text" placeholder="Name..." required>
                     </div>
-                    <div>
-                        <label for="email">Email <span>*</span>
+                    <div class="container-mail-tel">
+                        <div class="mail">
+                            <label for="email">Email <span>*</span>
 
-                        </label>
-                        <input id="email" type="email">
-                    </div>
-                    <div>
-                        <label for="tel">Phone</label>
-                        <input id="tel" type="tel">
+                            </label>
+                            <input id="email" type="email" placeholder="name.surname@mail.com" required>
+                        </div>
+                        <div class="tel">
+                            <label for="tel">Phone</label>
+                            <input id="tel" type="tel" placeholder="Ex. 123456789">
+                        </div>
                     </div>
                     <div>
                         <label for="text">Message <span>*</span>
 
                         </label>
-                        <textarea id="message"></textarea>
+                        <textarea id="message" placeholder="What do you need?" required></textarea>
                     </div>
-                    <button>SEND</button>
-                    </form>
-            </section>
-        </main>
+                    <div class="button-bar-contact">
+                        <button class="button">SEND</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
         <footer class="footer">
             <div class="container-footer">
                 <p>Front Ladies © 2018</p>
