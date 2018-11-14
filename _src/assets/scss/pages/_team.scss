@@ -1,3 +1,18 @@
+.article-title {
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #099d8d; 
+    text-align: center;
+}
+
+.article-text {
+    margin-bottom: 30px;
+    color: #54585a;
+    text-align: center;
+}
+
 .description {
     padding: 55px 30px 0 30px;
     padding-bottom: 20px;
@@ -42,5 +57,9 @@
         flex-direction: column;
         margin: auto;
     }
+    .skills{
+        max-width: 923px;
+    }
 }
+
 
